@@ -8,8 +8,8 @@ body{
     position:absolute;
     height:100dvh;
     width:100dvw;
+    
 }
-
 
 .sun{
     position:absolute;
@@ -17,7 +17,17 @@ body{
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
+   animation: sunrotation 25s linear infinite; 
+}
+@keyframes sunrotation
+{
+    0%{
+        transform: translate(-50%,-50%)rotate(0deg);
+    }
     
+    100%{
+        transform: translate(-50%,-50%)rotate(360deg);
+    }
 }
 .mercury
 {
