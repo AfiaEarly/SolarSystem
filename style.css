@@ -1,0 +1,300 @@
+body{
+    margin:0;
+    background:black;
+    overflow: hidden;
+}
+
+.solarsystem{
+    position:absolute;
+    height:100vh;
+    width:100%;
+}
+
+
+.sun{
+    position:absolute;
+    width:150px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+}
+.mercury
+{
+    position:absolute;
+    width:50px;
+    top:-10%;
+    left:50%;
+    transform:translate(-50%);
+}
+.orbit1
+{  position: absolute;
+    width: 120px;
+    height: 120px;
+      top:50%;
+    left:50%;
+
+    border : 1px solid #fff;
+    border-radius:50%;
+    transform:translate(-50%,-50%);
+    animation:rotate1 2s linear infinite ;
+}
+.orbit2
+{
+     position: absolute;
+    width: 200px;
+    height: 200px;
+    top:50%;
+    left:50%;
+
+    border : 1px solid #fff;
+    border-radius:50%;
+    transform:translate(-50%,-50%);
+    animation:rotate1 3s linear infinite ;
+
+}
+.venus
+{
+    position:absolute;
+    width:50px;
+    top:-5%;
+    left:50%;
+    transform:translate(-50%);
+}
+.orbit3
+{
+     position: absolute;
+    width: 340px;
+    height: 340px;
+      top:50%;
+    left:50%;
+
+    border : 1px solid #fff;
+    border-radius:50%;
+    transform:translate(-50%,-50%);
+    animation:rotate1 4s linear infinite ;
+
+}
+.earth
+{
+    position:absolute;
+    width:50px;
+    top:-6%;
+    left:50%;
+    transform:translate(-50%);
+}
+.suborbit {
+     position: absolute; 
+    width: 60px;       
+    height: 60px;
+      top: -9%;           
+    left: 50%;         
+    
+    border : 1px solid #fff;
+    border-radius:50%;
+    transform:translate(-50%);
+    animation:moonrotation 3s linear infinite ;
+    
+}
+.moon
+{
+     position:absolute;
+    width:15px;
+    top:-10%;
+    left:50%;
+    transform:translate(-50%);
+}
+
+
+.orbit4
+{
+     position: absolute;
+    width: 500px;
+    height: 500px;
+      top:50%;
+    left:50%;
+
+    border : 1px solid #fff;
+    border-radius:50%;
+    transform:translate(-50%,-50%);
+    animation:rotate1 5s linear infinite ;
+
+}
+
+
+.mars
+{
+    position:absolute;
+    width:60px;
+    top:-5%;
+    left:50%;
+    transform:translate(-50%);
+}
+
+.orbit5
+{
+     position: absolute;
+    width: 600px;
+    height: 600px;
+      top:50%;
+    left:50%;
+
+    border : 1px solid #fff;
+    border-radius:50%;
+    transform:translate(-50%,-50%);
+    animation:rotate1 6s linear infinite ;
+
+}
+
+
+.jupiter
+{
+    position:absolute;
+    width:80px;
+    top:-5%;
+    left:50%;
+    transform:translate(-50%);
+}
+
+.orbit6
+{
+     position: absolute;
+    width: 700px;
+    height: 700px;
+      top:50%;
+    left:50%;
+
+    border : 1px solid #fff;
+    border-radius:50%;
+    transform:translate(-50%,-50%);
+    animation:rotate1 8s linear infinite ;
+
+}
+
+
+.saturn
+{
+    position:absolute;
+    width:80px;
+    top:-4%;
+    left:50%;
+    transform:translate(-50%);
+    transform: rotate(340deg);
+}
+
+.orbit7
+{
+     position: absolute;
+    width: 800px;
+    height: 800px;
+      top:50%;
+    left:50%;
+
+    border : 1px solid #fff;
+    border-radius:50%;
+    transform:translate(-50%,-50%);
+    animation:rotate1 9s linear infinite ;
+
+}
+
+
+.uranus
+{
+    position:absolute;
+    width:80px;
+    top:-3%;
+    left:50%;
+    transform:translate(-50%);
+    transform: rotate(340deg);
+}
+.orbit8
+{
+     position: absolute;
+    width: 920px;
+    height: 920px;
+      top:50%;
+    left:50%;
+
+    border : 1px solid #fff;
+    border-radius:50%;
+    transform:translate(-50%,-50%);
+    animation:rotate1 11s linear infinite ;
+
+}
+
+
+.neptune
+{
+    position:absolute;
+    width:80px;
+    top:-3%;
+    left:50%;
+    transform:translate(-50%);
+    
+}
+
+
+.stars{
+    position:absolute;
+    width:2px;
+    height:2px;
+    background:white;
+    top:0;
+    left:0;
+
+    box-shadow:
+    34px 120px rgb(255, 1, 1), 78px 450px white, 120px 90px white, 160px 300px white, 200px 520px white,
+    240px 60px white, 280px 400px white, 320px 150px white, 360px 600px white, 400px 200px white,
+    440px 80px white, 480px 500px rgb(247, 63, 63), 520px 250px white, 560px 350px white, 600px 120px white,
+    640px 420px white, 680px 300px white, 720px 50px white, 760px 500px white, 800px 210px white,
+    840px 360px white, 880px 100px white, 920px 470px rgb(252, 252, 27), 960px 200px white, 1000px 320px white,
+    1040px 80px white, 1080px 550px rgb(227, 247, 165), 1120px 250px white, 1160px 420px white, 1200px 100px white,
+    1240px 330px rgb(244, 210, 21), 1280px 200px white, 1320px 450px rgb(255, 199, 159), 1360px 150px white, 1400px 520px white,
+    1440px 260px white, 1480px 390px white, 1520px 80px white, 1560px 470px white, 1600px 200px white,
+    1640px 340px white, 1680px 120px rgb(236, 255, 63), 1720px 510px white, 1760px 250px white, 1800px 390px white,
+    60px 220px white, 100px 380px white, 140px 500px white, 180px 260px rgb(236, 82, 82), 220px 420px white,
+    260px 180px white, 300px 520px white, 340px 240px white, 380px 410px white, 420px 140px white,
+    460px 360px white, 500px 80px rgb(78, 205, 239), 540px 460px rgb(68, 48, 177), 580px 300px white, 620px 520px white,
+    660px 160px white, 700px 420px white, 740px 240px white, 780px 380px white, 820px 120px white,
+    860px 480px white, 900px 260px white, 940px 400px white, 980px 140px white, 1020px 520px white,
+    1060px 320px white, 1100px 450px white, 1140px 200px white, 1180px 360px white, 1220px 90px white,
+    1260px 480px white, 1300px 260px white, 1340px 410px white, 1380px 150px white, 1420px 500px white,
+    1460px 300px white, 1500px 420px white, 1540px 180px white, 1580px 360px white, 1620px 90px white,
+    1660px 460px white, 1700px 240px white, 1740px 380px white, 1780px 140px white, 1820px 500px white;
+ animation:twinkle 3s infinite;
+} 
+
+
+@keyframes rotate1
+{
+    0%{
+        transform : translate(-50%,-50%) rotate(0deg);
+
+    }
+    100%
+    {
+        transform:translate(-50%,-50%)  rotate(360deg);
+    }
+}
+@keyframes twinkle{
+    0%{opacity:0.3;}
+    50%{opacity:1;}
+    100%{opacity:0.3;}
+}
+@keyframes moonrotation
+{
+    0%{
+        transform : translate(-50%) rotate(0deg);
+
+    }
+    100%
+    {
+        transform:translate(-50%)  rotate(360deg);
+    }
+}
+
+
+
+
+
+
